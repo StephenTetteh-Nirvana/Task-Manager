@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+    <main>
+        <div class="wrap">
+            <section class="heading">
+               <p class="title">Task Manager</p>
+               <p class="subtitle">Manage And Search Your Pending Tasks In Clicks!</p>
+            </section>
+
+            <section class="task-manager">
+                 <div class="search-box">
+                    <form class="search">
+                        <input type="text" name="task" placeholder="Search Tasks" autocomplete="off"/>
+                        <button class="reset">Reset</button>
+                    </form>
+                 </div>
+                 <div class="task-box">
+                    <ul class="tasks">
+                        <li>
+                            <span>Gaming</span>
+                            <button class="delete">Delete</button>
+                        </li>
+                        <li>
+                            <span>Music</span>
+                            <button class="delete">Delete</button>
+                        </li>
+                        <li>
+                            <span>Video Editing</span>
+                            <button class="delete">Delete</button>
+                        </li>
+                    </ul>
+                    <form class="add">
+                        <input type="text" name="task" placeholder="Add Task" autocomplete="off"/>
+                        <input type="submit" value="Add"/>
+                    </form>
+                 </div>
+                 <div class="message-box">
+                  <span></span>
+                  <button class="clear">Clear All</button>
+                 </div>
+
+            </section>
+        </div>
+   
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>
